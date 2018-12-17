@@ -1,0 +1,197 @@
+/* ESTRUTURA */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px "Century Gothic", sans-serif;
+    background: #003863;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#principal {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#conteudo {
+    float: left;
+    width: 710px;
+}
+
+/* FORMATAÇÃO DO MENU */
+header {
+    background: white;
+    height: 90px;
+    border-bottom: 5px solid black;
+}
+
+.logo {
+    padding: 5px 0px 0px 30px;
+    float: left;
+    margin-bottom: 1px;
+}
+
+header ul {
+    list-style: none;
+    text-align: right;
+}
+
+header ul li {
+    display: inline;
+    font-weight: bold;
+}
+
+header ul li a {
+    text-transform: uppercase;
+    line-height: 90px;
+    padding: 15px 15px 5px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+header ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+/* LAYOUT */
+.contabilidade {
+    border-bottom: 5px solid black;
+}
+
+article#conheca {
+    padding-top: 10px;
+}
+
+article#servicos {
+    margin: 10px;
+    display: block;
+}
+
+article#servicos ul {
+    float: right;
+}
+
+article#servicos ul li {
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+}
+
+article#servicos ul li:hover {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.contador {
+    float: left;
+    width: 250px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.servico img {
+    width: 200px;
+}
+
+article#video {
+    margin-bottom: 10px;
+}
+
+article#contato {
+    clear: both;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+article#contato p {
+    display: block;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.orcamento {
+    float: right;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 52px;
+}
+
+aside {
+    width: 310px;
+    float: right;
+    padding-top: 358px;
+}
+
+.local {
+    padding: 5px 20px 30px 0px;
+
+}
+
+section#links ul {
+    padding: 10px;
+    list-style: none;
+}
+
+section#links ul li {
+    padding: 3px;
+}
+
+section#links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+section#links ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+p {
+    font-size: 16px;
+    padding-left: 60px;
+    display: block;
+    color: white;
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 30px;
+    clear: both;
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-top: 1px solid black;
+}
